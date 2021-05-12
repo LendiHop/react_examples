@@ -1,0 +1,23 @@
+.onOff div {
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.activeOn {
+    background-color: limegreen;
+}
+
+.activeOff {
+    background-color: orangered;
+}
+
+.onOff .indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
