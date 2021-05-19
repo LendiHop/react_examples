@@ -17,8 +17,7 @@ function App() {
 
         <Rating value={ratingValue} onClick={setRatingValue}/>
         <Accordion title="This is accordion title" collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
-        {/*<OnOff value={switchValue} setValue={setSwitchValue}/>*/}
-        <UncontrolledOnOff onChange={setSwitchValue}/>
+        <OnOff value={switchValue} setValue={setSwitchValue}/>
     </div>
   );
 }
